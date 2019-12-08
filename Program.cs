@@ -1,12 +1,12 @@
 ﻿using System;
-
+using hackerrank_dotnet.interview.warmup;
 namespace hackerrank_dotnet
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Sockmerchant.Run(args);
         }
     }
 }
